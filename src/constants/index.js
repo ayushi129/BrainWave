@@ -36,6 +36,14 @@ import {
   yourlogo,
 } from "../assets";
 
+// Importing SVGs at the top
+import card1 from "../assets/benefits/card-1.svg";
+import card2 from "../assets/benefits/card-2.svg";
+import card3 from "../assets/benefits/card-3.svg";
+import card4 from "../assets/benefits/card-4.svg";
+import card5 from "../assets/benefits/card-5.svg";
+import card6 from "../assets/benefits/card-6.svg";
+
 export const navigation = [
   {
     id: "0",
@@ -246,7 +254,8 @@ export const benefits = [
     id: "0",
     title: "Ask anything",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    // backgroundUrl: "./src/assets/benefits/card-1.svg",
+    backgroundUrl: card1,
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
